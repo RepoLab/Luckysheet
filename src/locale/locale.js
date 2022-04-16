@@ -4,7 +4,9 @@ import es from './es'
 import zh_tw from './zh_tw'
 import Store from '../store';
 
-const localeObj = {en,zh,es,zh_tw}
+const de = require('./de.json');
+
+const localeObj = {en,zh,es,zh_tw,de}
 
 function locale(){
     return localeObj[Store.lang];
